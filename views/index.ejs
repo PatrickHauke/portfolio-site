@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <%- include('partials/resource/styles') %>
+  </head>
+  <body>
+    <%- include('partials/navigation') %>
+    <% pageContent.forEach((path)=>{ %>
+        <%- include(path.dir); %>
+    <% }) %>
+    <%- include('partials/resource/script-loader') %>
+  </body>
+</html>
