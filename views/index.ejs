@@ -7,7 +7,7 @@
   </head>
   <body>
     <%- include('partials/navigation') %>
-    <% pageContent.forEach((path)=>{ %>
+    <% pageLayout.forEach((path)=>{ %>
         <%- include(path.dir); %>
     <% }) %>
     <%- include('partials/resource/script-loader') %>

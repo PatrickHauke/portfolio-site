@@ -1,0 +1,21 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="header-center">Skills</div>
+        </div>
+        <div class="row">
+            <div class="skill-container">
+                <% pageContent.forEach((skillData)=>{ %>
+                   <div class="skill-header"><%= skillData.skillHeader%></div>
+                   <div class="sub-skill-container">
+                        <%skillData.subSkill.forEach((subSkill)=>{ %>                 
+                            <div class="sub-skill"><%= subSkill.skill%><i class="float-right">echo</i></div>
+                        <% }) %>
+                    </div>
+                <% }) %>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
