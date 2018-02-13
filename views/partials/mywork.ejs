@@ -1,0 +1,28 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="header-center">My Work</div>
+        </div>
+        <div class="work-section">
+            <% pageContent.forEach((myworkData)=>{ %>
+                <div class="row work-section-padding">
+                    <div class="col-lg-8">
+                        <img class="work-img" src="<%= myworkData.imgsrc %>"/>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="work-desc-header">
+                            <%= myworkData.worktitle %>
+                        </div>
+                        <div class="work-desc-main">
+                            <%= myworkData.workdesc %>
+                        </div>
+                        <div class="work-desk-btn">
+                            <button type="button" class="btn btn-primary justify-content-center">More Info</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    </div>
+</section>
