@@ -5,18 +5,18 @@
         </div>
         <div class="work-section">
             <% pageContent.forEach((myworkData)=>{ %>
-                <div class="row work-section-padding">
-                    <div class="col-lg-8">
-                        <img class="work-img" src="<%= myworkData.imgsrc %>"/>
+                <div class="row ">
+                    <div class="col-lg-8 work-img-padding">
+                        <img class="work-img material-shadow-4dp" src="<%= myworkData.imgsrc %>"/>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 work-text-padding">
                         <div class="work-desc-header">
                             <%= myworkData.worktitle %>
                         </div>
                         <div class="work-desc-main">
                             <%= myworkData.workdesc %>
                         </div>
-                        <div class="work-desk-btn">
+                        <div class="work-desc-btn">
                             <button type="button" class="btn btn-primary justify-content-center">More Info</button>
                         </div>
                         
