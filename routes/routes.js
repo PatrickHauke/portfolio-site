@@ -59,28 +59,42 @@ let myworkPage = {
     {
       "imgsrc": "img/screenshots/mywork/mwsi-live-00.png",
       "worktitle": "Alexapath | Mobile Whole Slide Imaging Live",
-      "workdesc": "Live sharing of slide specimin to pathologists for rapid remote diagnosis"
+      "workdesc": "Live sharing of slide specimin to pathologists for rapid remote diagnosis",
+      "workbtn": "alexapath-mwsi-live"
     },
     {
       "imgsrc": "img/screenshots/mywork/mwsi-live-00.png",
       "worktitle": "Alexapath | Mobile Whole Slide Imaging Live",
-      "workdesc": "Live sharing of slide specimin to pathologists for rapid remote diagnosis"
+      "workdesc": "Live sharing of slide specimin to pathologists for rapid remote diagnosis",
+      "workbtn": "alexapath-main-site"
     },
     {
       "imgsrc": "img/screenshots/mywork/mwsi-live-00.png",
       "worktitle": "Alexapath | Mobile Whole Slide Imaging Live",
-      "workdesc": "Live sharing of slide specimin to pathologists for rapid remote diagnosis"
+      "workdesc": "Live sharing of slide specimin to pathologists for rapid remote diagnosis",
+      "workbtn": "sample00"
     },
     {
       "imgsrc": "img/screenshots/mywork/mwsi-live-00.png",
       "worktitle": "Alexapath | Mobile Whole Slide Imaging Live",
-      "workdesc": "Live sharing of slide specimin to pathologists for rapid remote diagnosis"
+      "workdesc": "Live sharing of slide specimin to pathologists for rapid remote diagnosis",
+      "workbtn": "sample01"
     },
     {
       "imgsrc": "img/screenshots/mywork/mwsi-live-00.png",
       "worktitle": "Alexapath | Mobile Whole Slide Imaging Live",
-      "workdesc": "Live sharing of slide specimin to pathologists for rapid remote diagnosis"
+      "workdesc": "Live sharing of slide specimin to pathologists for rapid remote diagnosis",
+      "workbtn": "sample02"
     }
+  ]
+}
+
+let myworkDetailedPage = {
+  "pageLayout": [
+    {"dir": "partials/detailed/what-is"},
+    {"dir": "partials/detailed/brief"},
+    {"dir": "partials/detailed/work-done"},
+    {"dir": "partials/detailed/end-result"}
   ]
 }
 
@@ -95,6 +109,11 @@ router.get('/skills', function(req, res){
 
 router.get('/mywork', function(req, res){
   res.render('index', myworkPage);
+})
+
+router.get('/mywork/:more', (req, res)=>{
+  let path = req.params.more;
+  res.render('index', myworkDetailedPage);
 })
 
 module.exports = router;
