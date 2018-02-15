@@ -1,6 +1,6 @@
-.what-is-container {
-
-}
+/* .what-is-container {
+    padding-bottom: 20px;
+} */
 
 .what-is-header {
     font-size: 27px;
@@ -13,6 +13,30 @@
 }
 
 .redirect-btn {
-    padding-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 30px;
     text-align: center;
+}
+
+.what-is-img {
+    width: 100%;
+    height: auto;
+}
+
+.what-is-img-padding {
+    padding: 20px;
+}
+
+.brief-initial-container {
+    padding-top: 40px;
+}
+
+.brief-initial-header {
+    font-size: 35px;
+}
+
+.brief-initial-desc {
+    padding-left: 40px;
+    font-size: 21px;
+    color: rgba(0,0,0,0.6);
 }
