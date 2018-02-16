@@ -94,8 +94,17 @@ let myworkDetailedPage = {
     {"dir": "partials/detailed/what-is"},
     {"dir": "partials/detailed/brief"},
     {"dir": "partials/detailed/work-done"},
-    {"dir": "partials/detailed/end-result"}
-  ]
+    {"dir": "partials/detailed/end-result"},
+    {"dir": "partials/footer"}
+  ],
+  "imgsrc": "/img/screenshots/mywork/mwsi-live-00.png"
+}
+
+let projectsPage = {
+  "pageLayout": [
+    {"dir": "partials/myprojects"}
+  ],
+  "imgsrc": "/img/screenshots/mywork/mwsi-live-00.png"
 }
 
 /* GET home page. */
@@ -114,6 +123,10 @@ router.get('/mywork', function(req, res){
 router.get('/mywork/:more', (req, res)=>{
   let path = req.params.more;
   res.render('index', myworkDetailedPage);
+})
+
+router.get('/projects', (req, res)=>{
+  res.render('index', projectsPage);
 })
 
 module.exports = router;

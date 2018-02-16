@@ -33,10 +33,42 @@
 
 .brief-initial-header {
     font-size: 35px;
+    padding-bottom: 15px;
 }
 
 .brief-initial-desc {
-    padding-left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 21px;
     color: rgba(0,0,0,0.6);
+}
+
+.work-done-padding {
+    padding-top: 40px;
+    /* padding-bottom: 40px; */
+}
+
+.work-done-img{
+
+}
+
+.work-done-img-title {
+    text-align: center;
+    font-size: 27px;
+    color: rgba(0,0,0,0.6);
+    padding-bottom: 10px;
+}
+
+.work-done-desc {
+    padding: 25px;
+    font-size: 17px;
+}
+
+.footer-break {
+    border-top: 2px solid grey;
+}
+
+.footer-padding {
+    width: 100%;
+    padding-top: 40px;
 }

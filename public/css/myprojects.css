@@ -1,0 +1,35 @@
+.project-container {
+    padding-top: 40px;
+}
+
+.project-detail-container {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.project-header {
+    font-size: 27px;
+}
+
+.project-subheader {
+    font-size: 21px;
+    color: rgba(0,0,0,0.75);
+    padding-left: 20px;
+}
+
+.project-desc {
+    color: rgba(0,0,0,0.6);
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+.project-btn-container {
+    width: 100%;
+    text-align: center;
+    padding:20px;
+}
+
+.project-btn {
+    margin:7px;
+}
