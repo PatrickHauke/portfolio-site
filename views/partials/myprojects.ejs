@@ -1,32 +1,33 @@
 <section>
     <div class="container">
+
         <div class="row">
             <div class="header-center">Projects</div>
         </div>
-        <div class="project-container">
+        <% pageContent.forEach((content)=>{ %>
             <div class="row">
-                <div class="col-lg-6">
-                    <img class="material-shadow-4dp img-fluid" src="/img/screenshots/mywork/mwsi-live-00.png">
+                <div class="col-lg-6 myprojects-img-padding">
+                    <img class="material-shadow-4dp img-fluid" src="<%=content.pageimg%>">
                 </div>
                 <!-- <div class="col-lg-1"></div> -->
                 <div class="col-lg-6">
                     <div class="project-detail-container">
                         <div class="project-header">
-                            Project Title
+                            <%=content.pageheader%>
                         </div>
                         <div class="project-subheader">
-                            Project Sub Title
+                            <%=content.pagesubheader%>
                         </div>
                         <div class="project-desc">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mattis tempus dolor ac pulvinar. Duis vel leo et mauris interdum efficitur. Mauris placerat quis enim eget ullamcorper.
+                            <%=content.pagedesc%>
                         </div>
                         <div class="project-btn-container">
-                            <button type="button" class="btn project-btn">View Event Details</button>
-                            <button type="button" class="btn project-btn">View Project Page</button>
+                            <button type="button" onclick="location.href='<%=content.eventpageurl%>'" class="btn project-btn">View Event Page</button>
+                            <button type="button" onclick="location.href='<%=content.projectpageurl%>'" class="btn project-btn">View Project Page</button>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        <% }) %>
     </div>
 </section>

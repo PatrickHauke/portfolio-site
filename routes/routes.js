@@ -97,14 +97,38 @@ let myworkDetailedPage = {
     {"dir": "partials/detailed/end-result"},
     {"dir": "partials/footer"}
   ],
-  "imgsrc": "/img/screenshots/mywork/mwsi-live-00.png"
+  "pageContent": [
+    {
+      "pageimg": "/img/screenshots/mywork/mwsi-live-00.png",
+      "pageheader": "CUNY Hackathon, Fall 2017",
+      "pagesubheader": "Hackathon",
+      "pagedesc": "Hackathon Description",
+      "eventpageurl": "http://www.cunystartups.com/hackathon",
+      "projectpageurl": "https://devpost.com/software/puppywalk"
+    }
+  ]
 }
 
 let projectsPage = {
   "pageLayout": [
     {"dir": "partials/myprojects"}
   ],
-  "imgsrc": "/img/screenshots/mywork/mwsi-live-00.png"
+  "pageContent": [
+    {
+      "pageimg": "/img/screenshots/mywork/mwsi-live-00.png",
+      "pageheader": "CUNY Hackathon, Fall 2017",
+      "pagesubheader": "Hackathon",
+      "pagedesc": "Hackathon Description",
+      "eventpageurl": "http://www.cunystartups.com/hackathon",
+      "projectpageurl": "https://devpost.com/software/puppywalk"
+    }
+  ]
+}
+
+let viewpdf = {
+  "pageLayout": [
+    {"dir": "partials/viewpdf"}
+  ]
 }
 
 /* GET home page. */
@@ -127,6 +151,10 @@ router.get('/mywork/:more', (req, res)=>{
 
 router.get('/projects', (req, res)=>{
   res.render('index', projectsPage);
+})
+
+router.get('/viewresume', (req, res)=>{
+  res.render('index', viewpdf);
 })
 
 module.exports = router;
