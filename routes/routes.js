@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-let aboutPage = {
+let bioPage = {
   "pageLayout": [
     {"dir": "partials/bio"}
   ]
@@ -99,12 +99,16 @@ let myworkDetailedPage = {
   ],
   "pageContent": [
     {
-      "pageimg": "/img/screenshots/mywork/mwsi-live-00.png",
-      "pageheader": "CUNY Hackathon, Fall 2017",
-      "pagesubheader": "Hackathon",
-      "pagedesc": "Hackathon Description",
-      "eventpageurl": "http://www.cunystartups.com/hackathon",
-      "projectpageurl": "https://devpost.com/software/puppywalk"
+      "whatisheader": "Project Heading",
+      "whatisdesc": "Primary Project Desc",
+      "whatisbtn": "/btn/url.com",
+      "whatisimg": "/img/screenshots/mywork/mwsi-live-00.png", 
+      "briefdesc": "Task Desc",
+      "workdonebeforeimg": "/img/screenshots/mywork/mwsi-live-00.png",
+      "workdonebeforedesc": "Desc of what it was before",
+      "workdoneafterimg": "/img/screenshots/mywork/mwsi-live-00.png",
+      "workdoneafterdesc": "Desc of what it was after",
+      "end-result-desc": "Desc of end result"
     }
   ]
 }
@@ -131,9 +135,15 @@ let viewpdf = {
   ]
 }
 
+let aboutPage = {
+  "pageLayout": [
+    {"dir": "partials/about"}
+  ]
+}
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', aboutPage);
+  res.render('index', bioPage);
 });
 
 router.get('/skills', function(req, res){
@@ -151,6 +161,10 @@ router.get('/mywork/:more', (req, res)=>{
 
 router.get('/projects', (req, res)=>{
   res.render('index', projectsPage);
+})
+
+router.get('/about', (req, res)=>{
+  res.render('index', aboutPage);
 })
 
 router.get('/viewresume', (req, res)=>{

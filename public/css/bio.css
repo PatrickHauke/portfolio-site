@@ -19,12 +19,12 @@
 
 .bio-text-content h1 {
     color: rgba(0,0,0,1);
-    font-size: 35px;
+    font-size: 50px;
     /* font-family: 'Nunito Sans', sans-serif; */
     font-family: 'Abel', sans-serif;
 }
 
 .bio-text-content p {
     color: rgba(0,0,0,0.6);
-    font-size: 20px;
+    font-size: 30px;
 }
