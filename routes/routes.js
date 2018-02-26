@@ -89,31 +89,70 @@ let myworkPage = {
   ]
 }
 
-let myworkDetailedPage = {
-  "pageLayout": [
-    {"dir": "partials/projectsdetailed"},
-    {"dir": "partials/footer"}
-    // {"dir": "partials/detailed/what-is"},
-    // {"dir": "partials/detailed/brief"},
-    // {"dir": "partials/detailed/work-done"},
-    // {"dir": "partials/detailed/end-result"},
-    // {"dir": "partials/footer"}
-  ],
+let myWorkDetails = {
   "pageContent": [
     {
+      "projectname": "alexapath-mwsi-live",
       "whatisheader": "Project Heading",
-      "whatisdesc": "Primary Project Desc",
+      "whatisdesc": "Primary Project Desc Primary Project Desc Primary Project Desc Primary Project Desc Primary Project Desc Primary Project Desc",
       "whatisbtnname": "Project BTN Name",
       "whatisbtnurl": "https://google.com",
       "whatisimg": "/img/screenshots/mywork/mwsi-live-00.png", 
-      "briefdesc": "Task Desc",
+      "briefdesc": "Task Desc Task Desc Task Desc Task Desc Task Desc Task Desc Task Desc Task Desc Task Desc",
       "workdonebeforeimg": "/img/screenshots/mywork/mwsi-live-00.png",
       "workdonebeforedesc": "Desc of what it was before",
       "workdoneafterimg": "/img/screenshots/mywork/mwsi-live-00.png",
       "workdoneafterdesc": "Desc of what it was after",
-      "endresultdesc": "Desc of end result"
+      "endresultdesc": "Desc of end result Desc of end result"
+    },
+    {
+      "projectname": "alexapath-main-site",
+      "whatisheader": "Project Heading",
+      "whatisdesc": "Primary Project Desc Primary Project Desc Primary Project Desc Primary Project Desc Primary Project Desc Primary Project Desc",
+      "whatisbtnname": "Project BTN Name",
+      "whatisbtnurl": "https://google.com",
+      "whatisimg": "/img/screenshots/mywork/mwsi-live-00.png", 
+      "briefdesc": "Task Desc Task Desc Task Desc Task Desc Task Desc Task Desc Task Desc Task Desc Task Desc",
+      "workdonebeforeimg": "/img/screenshots/mywork/mwsi-live-00.png",
+      "workdonebeforedesc": "Desc of what it was before",
+      "workdoneafterimg": "/img/screenshots/mywork/mwsi-live-00.png",
+      "workdoneafterdesc": "Desc of what it was after",
+      "endresultdesc": "Desc of end result Desc of end result"
+    },
+    {
+      "projectname": "alexapath-mwsi-live",
+      "whatisheader": "Project Heading",
+      "whatisdesc": "Primary Project Desc Primary Project Desc Primary Project Desc Primary Project Desc Primary Project Desc Primary Project Desc",
+      "whatisbtnname": "Project BTN Name",
+      "whatisbtnurl": "https://google.com",
+      "whatisimg": "/img/screenshots/mywork/mwsi-live-00.png", 
+      "briefdesc": "Task Desc Task Desc Task Desc Task Desc Task Desc Task Desc Task Desc Task Desc Task Desc",
+      "workdonebeforeimg": "/img/screenshots/mywork/mwsi-live-00.png",
+      "workdonebeforedesc": "Desc of what it was before",
+      "workdoneafterimg": "/img/screenshots/mywork/mwsi-live-00.png",
+      "workdoneafterdesc": "Desc of what it was after",
+      "endresultdesc": "Desc of end result Desc of end result"
     }
   ]
+}
+
+
+
+function myworkDetailedPage(path, cb){
+
+  let pageContentRender = myWorkDetails.pageContent.find(name => name.projectname === path);
+  return {
+    "pageLayout": [
+      {"dir": "partials/projectsdetailed"},
+      {"dir": "partials/footer"}
+      // {"dir": "partials/detailed/what-is"},
+      // {"dir": "partials/detailed/brief"},
+      // {"dir": "partials/detailed/work-done"},
+      // {"dir": "partials/detailed/end-result"},
+      // {"dir": "partials/footer"}
+    ],
+    "pageContent": [pageContentRender]
+  }
 }
 
 let projectsPage = {
@@ -159,7 +198,7 @@ router.get('/mywork', function(req, res){
 
 router.get('/mywork/:more', (req, res)=>{
   let path = req.params.more;
-  res.render('index', myworkDetailedPage);
+  res.render('index', myworkDetailedPage(path));
 })
 
 router.get('/projects', (req, res)=>{

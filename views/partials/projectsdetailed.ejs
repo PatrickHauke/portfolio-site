@@ -3,70 +3,75 @@
 
         <%pageContent.forEach((data)=>{ %>
 
-            <div class="row">
+            <!-- <div class="row"> -->
                 <!-- Project Intro -->
-                <div class="header-center">
-                    <%=data.whatisheader%>
-                </div>
-                <div class="what-is-container">
-                    <div class="what-is-desc">
-                        <%=data.whatisdesc%>
+                <div class="row">
+                    <div class="header-center">
+                        <%=data.whatisheader%>
                     </div>
-                    <div class="redirect-btn">
-                        <button type="button" class="btn btn-success" onclick="location.href='<%=data.whatisbtnurl%>'">
-                            <%=data.whatisbtnname%>
-                        </button>
-                    </div>
+                    <div class="what-is-container">
+                        <div class="what-is-desc">
+                            <%=data.whatisdesc%>
+                        </div>
+                        <div class="redirect-btn">
+                            <button type="button" class="btn btn-success"><%=data.whatisbtnname%></button>
+                        </div>
 
-                    <div class="what-is-img-padding">
-                        <img class="material-shadow-4dp what-is-img" src="<%=data.whatisimg%>">
+                        <div class="what-is-img-padding">
+                            <img class="material-shadow-4dp what-is-img" src="<%=data.whatisimg%>">
+                        </div>
                     </div>
                 </div>
 
                 <!-- Project Desc -->
                 <div class="row">
-                <div class="brief-initial-container">
-                    <div class="brief-initial-header">
-                        Brief
-                    </div>
-                    <div class="brief-initial-desc">
-                        <%=data.briefdesc%>
+                    <div class="brief-initial-container">
+                        <div class="brief-initial-header">
+                            Brief
+                        </div>
+                        <div class="brief-initial-desc">
+                            <%=data.briefdesc%>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Work Done -->
-                <div class="row work-done-padding">
-                    <div class="brief-initial-header">
-                        What I Worked On
-                    </div>
-                </div>
                 <div class="row">
-                    <div class="col-lg-6">
-                        <div class="work-done-img-title">Before</div>
-                        <img class="work-done-img img-fluid material-shadow-4dp" src="<%=data.workdoneafterimg%>" />
-                        <div class="work-done-desc">
-                            <%=data.workdonebeforedesc%>
+                    <div class="work-done-padding">
+                        <div class="brief-initial-header">
+                            What I Worked On
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="work-done-img-title">After</div>
-                        <img class="work-done-img img-fluid material-shadow-4dp" src="<%=data.workdoneafterimg%>" />
-                        <div class="work-done-desc">
-                            <%=data.workdoneafterdesc%>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="work-done-img-title">Before</div>
+                            <img class="work-done-img img-fluid material-shadow-4dp" src="<%=data.workdonebeforeimg%>"/>
+                            <div class="work-done-desc">
+                                <%=data.workdonebeforedesc%>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="work-done-img-title">After</div>
+                            <img class="work-done-img img-fluid material-shadow-4dp" src="<%=data.workdonebeforeimg%>"/>
+                            <div class="work-done-desc">
+                                <%=data.workdoneafterdesc%>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- End Result -->
-                <div class="work-done-padding">
-                    <div class="brief-initial-header">
-                        Result
-                    </div>
-                    <div class="brief-initial-desc">
-                        <%=data.endresultdesc%>
+                <div class="row">
+                    <div class="brief-initial-container">
+                        <div class="brief-initial-header">
+                            Result
+                        </div>
+                        <div class="brief-initial-desc">
+                            <%=data.endresultdesc%>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <% }) %>
+            <!-- </div> -->
+        <% }) %>
     </div>
 </section>
