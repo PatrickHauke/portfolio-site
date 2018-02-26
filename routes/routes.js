@@ -91,24 +91,27 @@ let myworkPage = {
 
 let myworkDetailedPage = {
   "pageLayout": [
-    {"dir": "partials/detailed/what-is"},
-    {"dir": "partials/detailed/brief"},
-    {"dir": "partials/detailed/work-done"},
-    {"dir": "partials/detailed/end-result"},
+    {"dir": "partials/projectsdetailed"},
     {"dir": "partials/footer"}
+    // {"dir": "partials/detailed/what-is"},
+    // {"dir": "partials/detailed/brief"},
+    // {"dir": "partials/detailed/work-done"},
+    // {"dir": "partials/detailed/end-result"},
+    // {"dir": "partials/footer"}
   ],
   "pageContent": [
     {
       "whatisheader": "Project Heading",
       "whatisdesc": "Primary Project Desc",
-      "whatisbtn": "/btn/url.com",
+      "whatisbtnname": "Project BTN Name",
+      "whatisbtnurl": "https://google.com",
       "whatisimg": "/img/screenshots/mywork/mwsi-live-00.png", 
       "briefdesc": "Task Desc",
       "workdonebeforeimg": "/img/screenshots/mywork/mwsi-live-00.png",
       "workdonebeforedesc": "Desc of what it was before",
       "workdoneafterimg": "/img/screenshots/mywork/mwsi-live-00.png",
       "workdoneafterdesc": "Desc of what it was after",
-      "end-result-desc": "Desc of end result"
+      "endresultdesc": "Desc of end result"
     }
   ]
 }
