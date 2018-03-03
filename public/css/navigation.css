@@ -14,8 +14,8 @@
     border-radius: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('../img/patrick_team.jpg'); 
-    box-shadow: 0 0 0 3px darkorange;
+    background-image: url('../img/path-ico.png'); 
+    box-shadow: 0 0 0 3px #818181;
 }
 
 .navbar-font {

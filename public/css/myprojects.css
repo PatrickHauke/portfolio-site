@@ -13,6 +13,11 @@
     padding-left: 40px;
 }
 
+.myprojects-img-adj {
+    width:640px;
+    height: 100%;
+}
+
 .myprojects-img-padding {
     padding-right: 20px;
     padding-top: 20px;

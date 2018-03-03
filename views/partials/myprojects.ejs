@@ -7,13 +7,16 @@
         <% pageContent.forEach((content)=>{ %>
             <div class="row">
                 <div class="col-lg-6 myprojects-img-padding">
-                    <img class="material-shadow-4dp img-fluid" src="<%=content.pageimg%>">
+                    <img class="material-shadow-4dp img-fluid myprojects-img-adj" src="<%=content.pageimg%>">
                 </div>
                 <!-- <div class="col-lg-1"></div> -->
                 <div class="col-lg-6">
                     <div class="project-detail-container">
                         <div class="project-header">
                             <%=content.pageheader%>
+                        </div>
+                        <div class="project-subheader">
+                            <%=content.pagedate%>
                         </div>
                         <div class="project-subheader">
                             <%=content.pagesubheader%>
