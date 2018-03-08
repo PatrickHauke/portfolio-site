@@ -31,6 +31,14 @@
   h2 {
     font-size: 3.5rem;
   }
+
+  table {
+    width: 100%;
+  }
+
+  tr {
+    width: 50%;
+  }
   
   .subheading {
     text-transform: uppercase;
@@ -80,7 +88,7 @@
   section.resume-section {
     /* border-bottom: 1px solid #dee2e6; */
     padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
+    /* padding-bottom: 3rem !important; */
   }
   
   section.resume-section .resume-item .resume-date {
@@ -117,4 +125,17 @@
   
   a:hover, a:focus, a:active {
     color: #824027;
+  }
+
+  .border-spacing {
+    border-left: 1px solid #343a40;
+    padding-left: .5rem;
+  }
+  
+  .column-fluff {
+    padding-right: 7.5em;
+  }
+
+  .prof-adjust {
+    padding-right: 5.7em;
   }
