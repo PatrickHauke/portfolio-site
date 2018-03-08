@@ -248,6 +248,12 @@ let pageindev = {
   }]
 }
 
+let pageSample = {
+  "pageLayout": [{
+    "dir": "partials/resume"
+  }]
+}
+
 /* GET home page. */
 router.get('/', function (req, res, next) {
   res.render('index', bioPage);
@@ -277,6 +283,10 @@ router.get('/about', (req, res) => {
 router.get('/viewresume', (req, res) => {
   res.render('index', viewpdf);
 })
+
+router.get('/testing', (req, res) =>{
+  res.render('index', pageSample);
+});
 
 router.get('/in-progress', (req, res) => {
   res.render('index', pageindev);
