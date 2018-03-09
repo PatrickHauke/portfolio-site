@@ -228,9 +228,9 @@ let projectsPage = {
   ]
 }
 
-let viewpdf = {
+let viewResume = {
   "pageLayout": [{
-    "dir": "partials/viewpdf"
+    "dir": "partials/resume"
   }]
 }
 
@@ -248,11 +248,11 @@ let pageindev = {
   }]
 }
 
-let pageSample = {
-  "pageLayout": [{
-    "dir": "partials/resume"
-  }]
-}
+// let pageSample = {
+//   "pageLayout": [{
+//     "dir": "partials/resume"
+//   }]
+// }
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
@@ -281,15 +281,19 @@ router.get('/about', (req, res) => {
 })
 
 router.get('/viewresume', (req, res) => {
-  res.render('index', viewpdf);
+  res.render('index', viewResume);
 })
 
-router.get('/testing', (req, res) =>{
-  res.render('index', pageSample);
-});
+// router.get('/testing', (req, res) =>{
+//   res.render('index', pageSample);
+// });
 
 router.get('/in-progress', (req, res) => {
   res.render('index', pageindev);
 })
 
+router.get('/getpdf', (req, res)=>{
+  console.log();
+  res.download('./public/extra/resume_patrick.pdf', 'Patrick-Hauke-Resume.pdf');
+})
 module.exports = router;

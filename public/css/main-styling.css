@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Abel');
+/* @import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans'); */
+@import url('https://fonts.googleapis.com/css?family=Abel');
 body {
     /* font-family: 'Lato', sans-serif; */
     font-family: 'Abel', sans-serif;
@@ -9,7 +9,7 @@ body {
 .header-center {
     margin-left: auto;
     margin-right: auto;
-    font-size: 50px;
+    font-size: 3.5rem;
     /* border-bottom: 2px black solid; */
     font-family: 'Abel', sans-serif;
 }

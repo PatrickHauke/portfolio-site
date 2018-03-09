@@ -51,6 +51,14 @@
   .subheading .subheading-primary {
       font-weight: bold;
   }
+
+  .subtext {
+    padding-left: 2rem;
+  }
+
+  .subtext p {
+    margin-bottom: 2px;
+  }
   .list-social-icons a {
     color: #495057;
   }
@@ -77,7 +85,8 @@
   }
   
   .resume-content-padding {
-      padding-left: 2rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
   }
 
   .resume-content-list {
@@ -107,24 +116,24 @@
   @media (min-width: 992px) {
     section.resume-section {
       padding-top: 3rem !important;
-      padding-bottom: 3rem !important;
+      /* padding-bottom: 3rem !important; */
     }
   }
   
   .bg-primary {
-    background-color: #BD5D38 !important;
+    background-color: #FF8C00 !important;
   }
   
   .text-primary {
-    color: #BD5D38 !important;
+    color: #FF8C00 !important;
   }
   
   a {
-    color: #BD5D38;
+    color: #818181;
   }
   
   a:hover, a:focus, a:active {
-    color: #824027;
+    color: #FF8C00;
   }
 
   .border-spacing {
@@ -138,4 +147,8 @@
 
   .prof-adjust {
     padding-right: 5.7em;
+  }
+  
+  .prof-content-shift {
+    padding-left: 1.0rem;
   }
