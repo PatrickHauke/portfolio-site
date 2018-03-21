@@ -1,19 +1,2 @@
-.skill-container {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 10px;
-    border-top: 1px #cccccc solid;
-}
-
-.sub-skill {
-    padding-left: 40px;
-    font-size: 21px;
-    color: rgba(0,0,0,0.6);
-}
-
-.skill-header {
-    font-size: 27px;
-}
+.skill-container{width:1200px;margin-left:auto;margin-right:auto;padding-left:40px;padding-right:40px;padding-top:10px;border-top:1px #ccc solid}
+.sub-skill{padding-left:40px;font-size:21px;color:rgba(0,0,0,0.6)}.skill-header{font-size:27px}

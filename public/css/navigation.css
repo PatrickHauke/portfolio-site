@@ -1,68 +1,7 @@
-.header-container {
-    margin-bottom: 40px;
-    padding-top: 40px;
-    border-bottom: 1px solid #ebebeb;
-}
-
-.header-icon {
-    width: 115px;
-    height: 115px;
-    /* margin-top: 15px; */
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    border-radius: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url('../img/path-ico.png'); 
-    box-shadow: 0 0 0 3px #818181;
-}
-
-.navbar-font {
-    font-size: 27px;
-    line-height: 125%;
-}
-
-/* .navbar-shift {
-    padding-right: 40px;
-} */
-
-.nav-spacer {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.nav-link-hv {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px transparent;
-    position: relative;
-    overflow: hidden;
-}
-.nav-link-hv:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    left: 50%;
-    right: 50%;
-    bottom: 0;
-    background: orange;
-    height: 2px;
-    -webkit-transition-property: left, right;
-    transition-property: left, right;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-}
-.nav-link-hv:hover:before, nav-link-hv:focus:before, nav-link-hv:active:before {
-    left: 0;
-    right: 0;
-}
-
-
-.nav-item-line {
-    border-right-style: 1px solid grey;
-}
+.header-container{margin-bottom:40px;padding-top:40px;border-bottom:1px solid #ebebeb}
+.header-icon{width:115px;height:115px;margin-left:auto;margin-right:auto;margin-bottom:10px;border-radius:100%;background-size:cover;background-repeat:no-repeat;background-image:url('../img/path-ico.png');box-shadow:0 0 0 3px #818181}
+.navbar-font{font-size:27px;line-height:125%}.nav-spacer{padding-left:20px;padding-right:20px}
+.nav-link-hv{display:inline-block;vertical-align:middle;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);box-shadow:0 0 1px transparent;position:relative;overflow:hidden}
+.nav-link-hv:before{content:"";position:absolute;z-index:-1;left:50%;right:50%;bottom:0;background:orange;height:2px;-webkit-transition-property:left,right;transition-property:left,right;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-timing-function:ease-out;transition-timing-function:ease-out}
+.nav-link-hv:hover:before,nav-link-hv:focus:before,nav-link-hv:active:before{left:0;right:0}
+.nav-item-line{border-right-style:1px solid grey}.navbar-toggler-icon{margin-right:.5em}
