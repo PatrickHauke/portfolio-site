@@ -1,0 +1,160 @@
+[
+    {
+        "skillHeader": "Frontend",
+        "subSkill": [
+            {
+                "skill": "CSS"
+            },
+            {
+                "skill": "JQuery"
+            },
+            {
+                "skill": "Bootstrap"
+            },
+            {
+                "skill": "Materialize"
+            },
+            {
+                "skill": "React"
+            },
+            {
+                "skill": "Angular"
+            }
+        ]
+    },
+    {
+        "skillHeader": "Backend",
+        "subSkill": [
+            {
+                "skill": "Node.js"
+            },
+            {
+                "skill": "Express"
+            },
+            {
+                "skill": "Embedded JS"
+            },
+            {
+                "skill": "Sequelize"
+            },
+            {
+                "skill": "NGINX"
+            },
+            {
+                "skill": "WebRTC"
+            },
+            {
+                "skill": "OracleDB"
+            },
+            {
+                "skill": "Webpack"
+            },
+            {
+                "skill": "DevOps"
+            }
+        ]
+    },
+    {
+        "skillHeader": "DBMS",
+        "subSkill": [
+            {
+                "skill": "PostgreSQL"
+            },
+            {
+                "skill": "Oracle 11G"
+            },
+            {
+                "skill": "MongoDB"
+            },
+            {
+                "skill": "MySQL"
+            }
+        ]
+    },
+    {
+        "skillHeader": "Cloud Services",
+        "subSkill": [
+            {
+                "skill": "AWS EC2"
+            },
+            {
+                "skill": "AWS EB"
+            },
+            {
+                "skill": "AWS S3"
+            },
+            {
+                "skill": "AWS Route 53"
+            },
+            {
+                "skill": "AWS Lambda"
+            },
+            {
+                "skill": "Digital Ocean"
+            }
+        ]
+    },
+    {
+        "skillHeader": "IoT Development Boards",
+        "subSkill": [
+            {
+                "skill": "Arduino"
+            },
+            {
+                "skill": "Intel Edison"
+            },
+            {
+                "skill": "Raspberry Pi"
+            },
+            {
+                "skill": "Snapdragon Open-Q 820"
+            },
+            {
+                "skill": "Snapdragon 410c"
+            },
+            {
+                "skill": "NodeMCU"
+            }
+        ]
+    },
+    {
+        "skillHeader": "Languages",
+        "subSkill": [
+            {
+                "skill": "Javacript"
+            },
+            {
+                "skill": "TypeScript"
+            },
+            {
+                "skill": "Java"
+            },
+            {
+                "skill": "BASH"
+            },
+            {
+                "skill": "SQL"
+            },
+            {
+                "skill": "Python"
+            },
+            {
+                "skill": "Go"
+            },
+            {
+                "skill": "Ruby"
+            }
+        ]
+    },
+    {
+        "skillHeader": "Other",
+        "subSkill": [
+            {
+                "skill": "Bilingual in English and Polish"
+            },
+            {
+                "skill": "Renewable energy and space enthusiast"
+            }
+        ]
+    }
+]

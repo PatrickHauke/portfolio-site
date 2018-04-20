@@ -1,0 +1,56 @@
+[
+    {
+        "pageimg": "/img/projects/cuny-hack.jpg",
+        "pageheader": "CUNY Hackathon, Fall 2017",
+        "pagedate": "Nov 10-12, 2017",
+        "pagesubheader": "Hackathon",
+        "pagedesc": "My team and I worked on building a prototype for a social meetup application for dogs and dog owners. Over the course of 28 hours, we built out a hardware prototype, and a simple web application that would display the location of a dog wearing the hardness. Out of 55 teams, we were one of 17 selected to present our ideas to judges. Although we did not win any challenges, I was personally awarded the Google MVP Award from Raymond Blum after the judges learned that I was helping a group competing against us.",
+        "eventpageurl": "http://www.cunystartups.com/hackathon",
+        "projectpageurl": "https://devpost.com/software/puppywalk"
+    },
+    {
+        "pageimg": "/img/projects/technica.jpg",
+        "pageheader": "Technica 2017, All Women's Hackathon",
+        "pagedate": "Nov 3-5, 2017",
+        "pagesubheader": "Hackathon",
+        "pagedesc": "Technica 2017 was an all women hackathon hosted at the University of Maryland with over 850 participants competing. After a friend informed me that she was interested in attending, I reached out to the event coordinators to see if I could take the opportunity to give back to the hackathon community in order to share what I learned during my time working with Alexapath. I assisted several teams and helped with event setup and breakdown over the course of 30 hours.",
+        "eventpageurl": "http://gotechnica.org/",
+        "projectpageurl": "http://gotechnica.org/"
+    },
+    {
+        "pageimg": "/img/projects/md5.jpg",
+        "pageheader": "MD5 Disaster Relief Hackathon, NYC",
+        "pagedate": "Oct 14-16, 2016",
+        "pagesubheader": "Hackathon",
+        "pagedesc": "I attended MD5 along with the team I worked with at Alexapath LLC. We used the event as an opportunity to do a 3 day sprint too refactor and optimize both the hardware and web application for the Mobile Whole Slide Imaging Live prototype. We successfully completed out goal for the event and gave a well received presentation of our system and how it could be used by medical personnel in emergency response situations where bandwidth and access to pathologists would be limited.",
+        "eventpageurl": "https://bunkerlabs.org/event/md5-national-security-technology-accelerator-hackathon/",
+        "projectpageurl": "https://technical.ly/brooklyn/2016/10/25/department-defense-md5-hackathon/"
+    },
+    {
+        "pageimg": "/img/projects/red-hook.jpg",
+        "pageheader": "Hack Red Hook",
+        "pagedate": "Jun 24-26, 2016",
+        "pagesubheader": "Hackathon",
+        "pagedesc": "Hack Red Hook was the first time attending a hardware themed competition. We came up with the idea for Puppy Walk, an IOS application which could be used by dog walkers to track their dogs location through the use of a custom collar, keep a record of a dogs friends, and give warnings to owners when an aggressive dog may be nearby. I worked on developing the breadboard prototype of the collar which would talk to a web service and update the position in the IOS app.",
+        "eventpageurl": "https://pioneerworks.org/series/hack-red-hook/",
+        "projectpageurl": "https://github.com/CSTHackers/puppyWalk?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Big2ii59PTGqWaXBQxG4KFw%3D%3D"
+    },
+    {
+        "pageimg": "/img/projects/ah9.jpg",
+        "pageheader": "AngelHack Brooklyn",
+        "pagedate": "Jun 17-19, 2016",
+        "pagesubheader": "Hackathon",
+        "pagedesc": "During my second hackathon, I had exposure to my first competitive competition in programming. It was also the first time implementing an API into a web application. We decided to work on an idea called WingBot, a text based web app that would ask you questions based off of previous input in order to generate a personalized About Me page for online profiles. We took advantage of Facebook Messenger API, and HP Haven OnDemand Sentiment Analysis API to get a prototype built.",
+        "eventpageurl": "https://angelhack.com/angelhack-brooklyn-2016/",
+        "projectpageurl": "http://www.hackathon.io/66713?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Big2ii59PTGqWaXBQxG4KFw%3D%3D"
+    },
+    {
+        "pageimg": "/img/projects/beinbrooklyn.png",
+        "pageheader": "Be.Innovative Hackathon",
+        "pagedate": "Apr 08-10, 2016",
+        "pagesubheader": "Hackathon",
+        "pagedesc": "As my first hackathon, I was terrified and doubtful of my ability to contribute to my first programming related project outside of what was asked from university. With the first push from a close friend, I attended the event. I immediately began contributing more to the team than I thought I’d be capable of. We finalized an idea to build an Android application that could be used by tourists to find and support local business in Downtown Brooklyn. I became hooked on learning software development after finishing the event while being awake for 35 hours working.",
+        "eventpageurl": "https://bein-brooklyn-challenge.devpost.com/",
+        "projectpageurl": "https://devpost.com/software/destination-brooklyn-o69abl"
+    }
+]

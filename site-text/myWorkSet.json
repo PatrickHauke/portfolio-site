@@ -1,0 +1,26 @@
+[
+    {
+        "imgsrc": "img/screenshots/mywork/puppywalk.jpg",
+        "worktitle": "Mishka",
+        "jobtitle": "CEO / Lead Web and Mobile Developer",
+        "workdate": "January 2018 - Current",
+        "workdesc": "Mishka is a community driven social media platform centered around tracking and sharing events experienced between dogs, dog owners, and dog walkers while outside. In November 2017, we were accepted into the Spring 2018 Cohort and are currently developing a more refined business model and prototype.",
+        "workbtn": "mishka"
+    },
+    {
+        "imgsrc": "img/screenshots/mywork/nycct.jpg",
+        "worktitle": "AIR | Assessment and Institutional Research",
+        "jobtitle": "Consultant / Informal Internship",
+        "workdate": "August - December 2017",
+        "workdesc": "After a friend shared details about a new internship she was starting, I decided on offering my spare time to help plan and develop a web application which would be used to give and store the responses of digital surveys in a smarter way.",
+        "workbtn": "air-internship"
+    },
+    {
+        "imgsrc": "img/screenshots/mywork/side-bar-res.png",
+        "worktitle": "Alexapath LLC mWSI Live Beta",
+        "jobtitle": "Lead Full Stack Web Developer and DevOps",
+        "workdate": "April - October 2017",
+        "workdesc": "The beta stage of development for the mobile whole slide imaging live platform was a major overhaul and improvement to the alpha. Session management, user logs, session based messaging rooms, image capture, commenting, and digital generation of reports and verification of signatures were implemented.",
+        "workbtn": "alexapath-mwsi-beta"
+    }
+]
